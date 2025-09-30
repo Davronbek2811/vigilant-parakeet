@@ -1,0 +1,46 @@
+.box {
+    width: 290px;
+    height: 290px;
+    border-radius: 30px;
+    opacity: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.box img {
+    margin: 0 auto;
+}
+
+.box .coin {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000AB;
+    margin-bottom: 34px;
+}
+
+.box h1 {
+    font-family: Bold;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 100%;
+    margin-bottom: 32px;
+    color: #000000;
+    margin-top: 17px;
+}
+
+
+
+#div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
